@@ -9,8 +9,6 @@ RUN apt-get update && \
 
 COPY . /oficina2.0
 
-COPY . .
-
 EXPOSE 80
 
 CMD ["apache2-foreground"]
